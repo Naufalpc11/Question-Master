@@ -7,6 +7,8 @@ import os
 import sys
 import json
 
+from utility import Utility
+
 class FullScreenApp(QWidget):
     def __init__(self, data):
         super().__init__()
@@ -15,7 +17,7 @@ class FullScreenApp(QWidget):
         self.setWindowState(Qt.WindowFullScreen)
         self.mediaPlayer = QMediaPlayer(self)
         self.mediaPlayer.mediaStatusChanged.connect(self.songFinished)
-        self.addMusicToPlaylist('D:\Semester 1\PKTI nih Boss\sound\Pheme.mp3')  
+        self.addMusicToPlaylist(Utility.getSoundFile("Pheme.mp3"))  
         self.playlist.setCurrentIndex(0)
         self.playMusic()   
 
@@ -34,24 +36,24 @@ class FullScreenApp(QWidget):
    
     def load_quiz_data(self):
         
-        with open('D:\Semester 2\Project Prototype\Pertanyaan.json') as file:
+        with open(Utility.getFile("Pertanyaan.json")) as file:
             data = json.load(file)
         return data
     def klik(self):
-        QSound.play('D:\Semester 1\PKTI nih Boss\sound\klik.wav')
+        QSound.play(Utility.getSoundFile("klik.wav"))
 
     def initUI(self):
         self.setWindowTitle('YukMabar')
-        self.setWindowIcon(QIcon('Gambar/Icon.jpg'))
+        self.setWindowIcon(QIcon(Utility.getGambarFile("Icon.jpg")))
         self.showFullScreen()
 
-        Backrground = QPixmap('D:\Semester 2\Project Prototype\Background\depan.jpg') 
+        Backrground = QPixmap(Utility.getBackgroundFile("depan.jpg")) 
         self.background_1 = QLabel(self)
         self.background_1.setPixmap(Backrground)
         self.background_1.setGeometry(0, 0, self.width(), self.height())  
         self.background_1.show()
         
-        JudulRek = QPixmap('D:\Semester 2\Project Prototype\Gambar\Expo24.png')
+        JudulRek = QPixmap(Utility.getGambarFile("Expo24.png"))
         self.judullll = QLabel(self)
         self.judullll.setPixmap(JudulRek)
         self.judullll.setAlignment(Qt.AlignCenter)
@@ -122,13 +124,13 @@ class FullScreenApp(QWidget):
         self.judullll.hide()
         self.background_1.hide()
 
-        Backrground = QPixmap('D:\Semester 2\Project Prototype\Background\menu.jpg') 
+        Backrground = QPixmap(Utility.getBackgroundFile("menu.jpg"))
         self.background_2 = QLabel(self)
         self.background_2.setPixmap(Backrground)
         self.background_2.setGeometry(0, 0, self.width(), self.height())  
         self.background_2.show()
 
-        robot = 'D:\Semester 2\Project Prototype\Widget\obot-run.gif'
+        robot = Utility.getWidgetFile("obot-run.gif")
         self.rbt = QLabel(self)
         oooo = QPixmap(robot) 
         self.rbt.setPixmap(oooo)
@@ -142,7 +144,7 @@ class FullScreenApp(QWidget):
         self.startAnimation()
 
         self.opolek = QLabel(self)
-        ooo = QPixmap('D:\Semester 1\PKTI nih Boss\Background\p.png') 
+        ooo = QPixmap(Utility.getBackgroundFile("p.png")) 
         self.opolek.setPixmap(ooo)
         self.opolek.move(-40, 0)
         self.opolek.adjustSize()
@@ -182,7 +184,7 @@ class FullScreenApp(QWidget):
         self.kembali.installEventFilter(self)
         self.kembali.show()
         
-        pixmap = QPixmap('D:\Semester 2\Project Prototype\Gambar\Expo24.png')
+        pixmap = QPixmap(Utility.getGambarFile("Expo24.png"))
         pixmap = pixmap.scaled(300, 139)
         self.lab = QLabel(self)
         self.lab.setPixmap(pixmap)
@@ -211,7 +213,7 @@ class FullScreenApp(QWidget):
         self.initUI()
     def help(self):
         self.bantuanco = QLabel(self)
-        soall = QPixmap('D:\Semester 1\PKTI nih Boss\Background\cara bermain.jpg') 
+        soall = QPixmap(Utility.getBackgroundFile("cara bermain.jpg")) 
         self.bantuanco.setPixmap(soall)
         self.bantuanco.move(0, 0)
         self.bantuanco.adjustSize()
@@ -250,7 +252,7 @@ class FullScreenApp(QWidget):
             checkbox.setVisible(False)
 
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(210, 100)
         self.backgroundsoal.adjustSize()
@@ -312,7 +314,7 @@ class FullScreenApp(QWidget):
         self.kem.clicked.connect(self.menucoy)
         self.kem.installEventFilter(self)
         self.kem.show()
-        file_path = 'D:\Semester 1\PKTI nih Boss\skor.json'
+        file_path = Utility.getFile("skor.json")
         total_score = 0
         if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
             with open(file_path, 'r') as file:
@@ -411,7 +413,7 @@ class FullScreenApp(QWidget):
         self.judulpelajaran4.show()
     def st14(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -498,7 +500,7 @@ class FullScreenApp(QWidget):
 ########^Tema 1 kelas 4^#######################################################
     def st24(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -580,7 +582,7 @@ class FullScreenApp(QWidget):
 ########^Tema 2 kelas 4^#######################################################
     def st34(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -662,7 +664,7 @@ class FullScreenApp(QWidget):
 ########^Tema 3 kelas 4^#######################################################
     def st44(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -782,7 +784,7 @@ class FullScreenApp(QWidget):
         self.startAnimation()
     def st15(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -864,7 +866,7 @@ class FullScreenApp(QWidget):
 ########^Tema 1 kelas 5^#######################################################
     def st25(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -946,7 +948,7 @@ class FullScreenApp(QWidget):
 ########^Tema 2 kelas 5^#######################################################
     def st35(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -1028,7 +1030,7 @@ class FullScreenApp(QWidget):
 ########^Tema 3 kelas 5^#######################################################
     def st45(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -1148,7 +1150,7 @@ class FullScreenApp(QWidget):
         self.startAnimation()
     def st16(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -1230,7 +1232,7 @@ class FullScreenApp(QWidget):
 ########^Tema 1 kelas 6^#######################################################
     def st26(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png"))
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -1312,7 +1314,7 @@ class FullScreenApp(QWidget):
 ########^Tema 2 kelas 6^#######################################################
     def st36(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -1394,7 +1396,7 @@ class FullScreenApp(QWidget):
 ########^Tema 3 kelas 6^#######################################################
     def st46(self):
         self.backgroundsoal = QLabel(self)
-        soall = QPixmap('D:\Semester 2\Project Prototype\Widget\soall.png') 
+        soall = QPixmap(Utility.getWidgetFile("soall.png")) 
         self.backgroundsoal.setPixmap(soall)
         self.backgroundsoal.move(160, 50)
         self.backgroundsoal.adjustSize()
@@ -1549,7 +1551,7 @@ class FullScreenApp(QWidget):
         self.score_label.hide()
         self.Menu()
     def save_score_to_json4(self, score):
-        file_path = 'D:\Semester 1\PKTI nih Boss\skor.json'
+        file_path = Utility.getFile("skor.json")
 
         if not os.path.exists(file_path) or os.path.getsize(file_path) == 0:
             data = {'scoresk4': [{'score': score}]}
@@ -1577,7 +1579,7 @@ class FullScreenApp(QWidget):
               json.dump(data, file, indent=4)
 
     def save_score_to_json5(self, score):
-        file_path = 'D:\Semester 1\PKTI nih Boss\skor.json'
+        file_path = Utility.getFile("skor.json")
 
         if not os.path.exists(file_path) or os.path.getsize(file_path) == 0:
             data = {'scoresk5': [{'score': score}]}
@@ -1605,7 +1607,7 @@ class FullScreenApp(QWidget):
               json.dump(data, file, indent=4)
               
     def save_score_to_json6(self, score):
-        file_path = 'D:\Semester 1\PKTI nih Boss\skor.json'
+        file_path = Utility.getFile("skor.json")
 
         if not os.path.exists(file_path) or os.path.getsize(file_path) == 0:
             data = {'scoresk6': [{'score': score}]}

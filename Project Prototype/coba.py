@@ -1,5 +1,7 @@
 import json
 
+from utility import Utility
+
 def calculate_total_scores(file_path):
     with open(file_path, 'r') as file:
         data = json.load(file)
@@ -14,7 +16,7 @@ def calculate_total_scores(file_path):
     return total_score
 
 # Path ke file JSON Anda
-file_path = 'D:\Semester 1\PKTI nih Boss\skor.json'
+file_path = Utility.getFile("skor.json")
 
 total_scores = calculate_total_scores(file_path)
 print(f"Total skor dari semua kelas: {total_scores}")
