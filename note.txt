@@ -1,2 +1,2 @@
 cd '.\Project Prototype\'
-pyinstaller Expo24.py --name=QuestionMaster --icon='./Widget/Icon.ico' --onefile -w
+pyinstaller Expo24.py --name=QuizMaster --icon='./Widget/Icon.ico' --onefile -w
