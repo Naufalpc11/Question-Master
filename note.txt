@@ -1,0 +1,2 @@
+cd '.\Project Prototype\'
+pyinstaller Expo24.py --name=QuestionMaster --icon='./Widget/Icon.ico' --onefile -w

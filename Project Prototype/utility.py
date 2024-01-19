@@ -2,7 +2,7 @@ import os
 
 class Utility():
     def getFile(file: str) -> str:
-        return os.path.join(os.path.dirname(os.path.realpath(__file__)), file)
+        return os.path.join(os.getcwd(), file)
     
     def getSoundFile(file: str) -> str:
         return Utility.getFile(os.path.join("sound", file))
