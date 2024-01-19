@@ -1,0 +1,643 @@
+{
+    "kelas": {
+        "4": {
+            "tema1": {
+                "soal1": {
+                "pertanyaan": "Informatika biasanya bersangkutan dengan...",
+                "options": ["Penyebaran Informasi", "Pencarian Informasi", "Komputer", "Listrik"],
+                "jawaban": "Komputer"
+                },
+                "soal2": {
+                "pertanyaan": "RAM adalah singkatan dari...",
+                "options": ["Random Access Memory", "Relative Access Memory", "Roll Ampe Mati", "Ronaldo Anaknya Messi"],
+                "jawaban": "Random Access Memory"
+                },
+                "soal3": {
+                    "pertanyaan": "CPU adalah singkatan dari...",
+                    "options": ["Central Polar Unit", "Center Processing Unit", "Central Processing Unit", "Celana Pak Ucok"],
+                    "jawaban": "Central Processing Unit"
+                },
+                "soal4": {
+                    "pertanyaan": "Apakah RAM sama dengan Memori Internal?",
+                    "options": ["Iya", "Ngk", "Hooh", "Mang Eak"],
+                    "jawaban": "Mang Eak"
+                },
+                "soal5": {
+                    "pertanyaan": "Apa yang membedakan RAM dengan Memori Internal?",
+                    "options": ["RAM menyimpan data yang sedang digunakan saja,\nMemori Internal menyimpan data dalam jangka waktu yang panjang", "RAM menyimpan data dalam jangka waktu yang panjang,\nMemori Internal menyimpan data yang sedang digunakan saja", "RAM dan Memori Internal adalah sama", "ngk tau mas bingung juga aku"],
+                    "jawaban": "RAM menyimpan data yang sedang digunakan saja,\nMemori Internal menyimpan data dalam jangka waktu yang panjang"
+                },
+                "soal6": {
+                "pertanyaan": "Jika komputer dalam kondisi mati, apa\nyang akan terjadi pada file di dalam memori internal?",
+                "options": ["Data akan terhapus secara total", "Data akan tersimpan seutuhnya", "Data akan terhapus saat dimatikan,\nnamun akan kembali pada saat dihidupkan ", "Memori internal rusak dan harus beli baru"],
+                "jawaban": "Data akan tersimpan seutuhnya"
+                },
+                "soal7": {
+                "pertanyaan": "Jika komputer dalam kondisi mati, apa\nyang akan terjadi pada file di dalam RAM?",
+                "options": ["Data akan terhapus secara total ", "Data akan tersimpan seutuhnya", "RAM akan kosong saat dimatikan,\nnamun akan terisi kembali saat dihidupkan", "RAM rusak dan harus beli baru"],
+                "jawaban": "RAM akan kosong saat dimatikan,\nnamun akan terisi kembali saat dihidupkan"
+                },
+                "soal8": {
+                "pertanyaan": "Berikut adalah prospek pekerjaan informatika,\nkecuali...",
+                "options": ["Software Developer", "Data Analyst", "Hardware Developer", "Konsultan IT"],
+                "jawaban": "Hardware Developer"
+                },
+                "soal9": {
+                "pertanyaan": "Biasanya Informatika menggunakan bahasa...",
+                "options": ["Pemrograman", "Jawa", "Inggris", "Komputer"],
+                "jawaban": "Pemrograman"
+                },
+                "soal10": {
+                "pertanyaan": "Apa itu ROM?",
+                "options": ["Tempat penyimpanan data sementara", "Tempat penyimpanan data permanen", "Tempat berjalannya proses suatu perangkat", "Role di ML"],
+                "jawaban": "Tempat penyimpanan data permanen"
+                }
+            },
+            "tema2": {
+                "soal1": {
+                "pertanyaan": "ROM adalah singkatan dari",
+                "options": ["Random Only Memory", "Rare Object Memory", "Read Only Memory", "Read On Memory"],
+                "jawaban": "Read Only Memory"
+                },
+                "soal2": {
+                "pertanyaan": "Apa yang dimaksud dengan HTML?",
+                "options": ["HyperText Markup Language", "High-Level Programming Language", "Hardware and Technology Markup Language", "Hyperlink and Text Manipulation Language"],
+                "jawaban": "HyperText Markup Language"
+                },
+                "soal3": {
+                "pertanyaan": "Bahasa pemrograman apa yang umumnya digunakan\nuntuk pengembangan aplikasi Android?",
+                "options": ["Java", "Python", "C++", "Jawa"],
+                "jawaban": "Java"
+                },
+                "soal4": {
+                "pertanyaan": "Apa peran dari CSS dalam pengembangan web?",
+                "options": ["Memproses data pada sisi server", "Menyimpan data pada sisi klien", "Menentukan tata letak dan gaya\nhalaman web", "Menangani interaksi pengguna"],
+                "jawaban": "Menentukan tata letak dan gaya\nhalaman web"
+                },
+                "soal5": {
+                "pertanyaan": "Apa singkatan dari URL dalam konteks web?",
+                "options": ["Uniform Resource Locator", "Universal Registration of Links", "Unified Resource Locator", "User Requirement Language"],
+                "jawaban": "Uniform Resource Locator"
+                },
+                "soal6": {
+                "pertanyaan": "Apa fungsi dari SQL dalam database?",
+                "options": ["Untuk membuat No Game No Life\nseason 2 terbit", "Menghubungkan server dan klien", "Mengelola dan mengakses basis data", "Membuat tampilan grafis pada aplikasi"],
+                "jawaban": "Mengelola dan mengakses basis data"
+                },
+                "soal7": {
+                "pertanyaan": "Apa yang dimaksud dengan malware?",
+                "options": ["Software yang dirancang untuk\nmelindungi sistem", "Program yang digunakan untuk mengoptimalkan\nkinerja komputer", "Perangkat keras yang digunakan untuk\nmenyimpan data", "Software berbahaya yang dapat merusak\natau merusak sistem"],
+                "jawaban": "Software berbahaya yang dapat merusak\natau merusak sistem"
+                },
+                "soal8": {
+                "pertanyaan": "Apa kegunaan dari firewall dalam keamanan\njaringan?",
+                "options": ["Menambah kecepatan koneksi internet", "Meningkatkan kapasitas penyimpanan", "Untuk membuat dinding api besar\ndari bawah layar", "Mencegah akses tidak sah ke jaringan"],
+                "jawaban": "Mencegah akses tidak sah ke jaringan"
+                },
+                "soal9": {
+                    "pertanyaan": "Apa yang dimaksud dengan cloud computing?",
+                    "options": ["Mengacu pada menyimpan data di\nperangkat keras lokal", "Menggunakan sumber daya komputasi melalui\ninternet", "Proses pengolahan data tanpa\nmenggunakan komputer", "Ngoding diatas awan anjai"],
+                    "jawaban": "Menggunakan sumber daya komputasi melalui\ninternet"
+                },
+                "soal10": {
+                    "pertanyaan": "Apa istilah yang digunakan untuk menyusun\nulang data agar dapat diakses lebih efisien?",
+                    "options": ["Data Sorting", "Data Encryption", "Data Shorting", "Data Compressing"],
+                    "jawaban": "Data Sorting"
+                    }   
+            },
+            "tema3": {
+                "soal1": {
+                    "pertanyaan": "Apa fungsi dari DNS dalam jaringan komputer?",
+                    "options": ["Mengenkripsi data yang dikirim melalui jaringan", "Mengelola alamat IP perangkat dalam\nbentuk nama domain", "Mencegah serangan malware pada server", "Menyediakan layanan streaming video"],
+                    "jawaban": "Mengelola alamat IP perangkat dalam\nbentuk nama domain"
+                },
+                "soal2": {
+                    "pertanyaan": "DNS merupakan singkatan dari...",
+                    "options": ["Domain None System", "Domain Name System", "Door Network System", "Domain Network System"],
+                    "jawaban": "Domain Name System"
+                },
+                "soal3": {
+                    "pertanyaan": "Apa perbedaan antara HTTP dan HTTPS?",
+                    "options": ["HTTPS menggunakan protokol keamanan tambahan\nuntuk enkripsi data", "HTTP lebih cepat daripada HTTPS", "HTTPS hanya digunakan untuk mengakses\nhalaman web statis", "HTTP dan HTTPS adalah hal yang sama\ndalam komunikasi web"],
+                    "jawaban": "HTTPS menggunakan protokol keamanan tambahan\nuntuk enkripsi data"
+                },
+                "soal4": {
+                    "pertanyaan": "Apa yang dimaksud dengan algoritma dalam\nkonteks pemrograman?",
+                    "options": ["Bahasa pemrograman populer", "Serangkaian perintah untuk menyelesaikan\ntugas tertentu", "Struktur data dalam basis data", "Perangkat keras yang digunakan untuk pengembangan\nperangkat lunak"],
+                    "jawaban": "Serangkaian perintah untuk menyelesaikan\ntugas tertentu"
+                },
+                "soal5": {
+                    "pertanyaan": "Apa yang dimaksud dengan debugging dalam\npemrograman?",
+                    "options": ["Proses mengoptimalkan performa kode", "Mencari dan memperbaiki kesalahan dalam kode", "Menambahkan fitur baru ke dalam program", "Proses mengonversi kode sumber menjadi bahasa mesin"],
+                    "jawaban": "Mencari dan memperbaiki kesalahan dalam kode"
+                },
+                "soal6": {
+                    "pertanyaan": "Apa keuntungan penggunaan teknologi\nBlockchain?",
+                    "options": ["Meningkatkan kecepatan internet", "Memastikan keamanan transaksi dengan\ndesentralisasi", "Mengoptimalkan penggunaan RAM pada komputer", "Mengurangi ukuran file pada penyimpanan\ndata"],
+                    "jawaban": "Memastikan keamanan transaksi dengan\ndesentralisasi"
+                },
+                "soal7": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'machine learning'\ndalam bidang kecerdasan buatan?",
+                    "options": ["Proses membuat mesin kopi secara otomatis", "Algoritma untuk membuat keputusan manusia", "Kemampuan komputer untuk belajar dari data dan\nmeningkatkan kinerja tanpa pemrograman eksternal", "Model matematika untuk mengukur kecepatan komputer"],
+                    "jawaban": "Kemampuan komputer untuk belajar dari data dan\nmeningkatkan kinerja tanpa pemrograman eksternal"
+                },
+                "soal8": {
+                    "pertanyaan": "Apa peran sistem operasi dalam suatu komputer?",
+                    "options": ["Menyimpan data secara permanen", "Mengelola sumber daya perangkat keras dan\nmenyediakan antarmuka untuk aplikasi", "Melakukan enkripsi data selama transmisi", "Mengontrol akses ke internet"],
+                    "jawaban": " Mengelola sumber daya perangkat keras dan\nmenyediakan antarmuka untuk aplikasi"
+                },
+                "soal9": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Open Source'\ndalam perangkat lunak?",
+                    "options": ["Perangkat lunak yang tidak dapat diakses\noleh publik", "Perangkat lunak yang dapat dimodifikasi dan\ndidistribusikan secara gratis", "Perangkat lunak eksklusif untuk perusahaan besar", "Perangkat lunak dengan lisensi tertutup"],
+                    "jawaban": "Perangkat lunak yang dapat dimodifikasi dan\ndidistribusikan secara gratis"
+                },
+                "soal10": {
+                    "pertanyaan": "Apa yang dimaksud dengan algoritma pencarian\nbiner?",
+                    "options": ["Algoritma untuk mencari data dalam\nbasis data", "Algoritma untuk menyusun data secara terurut", "Metode pencarian yang membagi data menjadi\ndua bagian dan mencari di salah satu bagian", "Algoritma untuk mengkompresi file"],
+                    "jawaban": "Metode pencarian yang membagi data menjadi\ndua bagian dan mencari di salah satu bagian"
+                    }
+            },
+            "tema4": {
+                "soal1": {
+                    "pertanyaan": "Apa itu jaringan komputer LAN?",
+                    "options": ["Jaringan komputer yang mencakup area\ngeografis yang luas", "Jaringan komputer yang terbatas pada suatu\nlokasi atau bangunan tertentu", "Jaringan komputer yang tidak memerlukan\nkoneksi internet", "Jaringan komputer yang hanya digunakan untuk\nperusahaan besar"],
+                    "jawaban": "Jaringan komputer yang terbatas pada suatu\nlokasi atau bangunan tertentu"
+                },
+                "soal2": {
+                    "pertanyaan": "LAN merupakan singkatan dari...",
+                    "options": ["Layanan Anak Nakal", "Local Abstract Network", "Local Area Network", "Local Area Netizens"],
+                    "jawaban": "Local Area Network"
+                },
+                "soal3": {
+                    "pertanyaan": "Apa yang dimaksud dengan API\n(Application Programming Interface?)",
+                    "options": ["Antarmuka untuk pengguna akhir dalam\nsuatu aplikasi", " Algoritma untuk memproses data dalam\nbasis data", "Sekumpulan aturan untuk pengembangan aplikasi", "Antarmuka yang memungkinkan aplikasi\nberkomunikasi satu sama lain"],
+                    "jawaban": "Antarmuka yang memungkinkan aplikasi\nberkomunikasi satu sama lain"
+                },
+                "soal4": {
+                    "pertanyaan": "Apa peran utama dari kompiler dalam pemrograman?",
+                    "options": ["Menjalankan program secara langsung", "Menerjemahkan kode sumber ke bahasa mesin", "Mengelola memori komputer", "Menyusun tata letak halaman web"],
+                    "jawaban": "Menerjemahkan kode sumber ke bahasa mesin"
+                },
+                "soal5": {
+                    "pertanyaan": "Apa itu 'Big Data' dalam konteks teknologi\ninformasi?",
+                    "options": ["Data yang memiliki ukuran dan kompleksitas\nyang sulit dielola oleh sistem tradisional", " Data yang kecil dan mudah dielola oleh\nsistem komputer", "Algoritma untuk analisis data kecil", "Sebuah jenis perangkat keras komputer"],
+                    "jawaban": "Data yang memiliki ukuran dan kompleksitas\nyang sulit dielola oleh sistem tradisional"
+                },
+                "soal6": {
+                    "pertanyaan": "Apa perbedaan antara software open source\ndan closed source?",
+                    "options": ["Open source dapat dimodifikasi dan didistribusikan\nsecara bebas,sementara closed source tidak dapat diakses", "Open source selalu memerlukan biaya lisensi,\nsedangkan closed source gratis", "Keduanya merujuk pada konsep yang sama dalam\npengembangan perangkat lunak", "Open source hanya digunakan dalam lingkungan perusahaan besar"],
+                    "jawaban": "Open source dapat dimodifikasi dan didistribusikan secara bebas, sementara closed source tidak dapat diakses"
+                },
+                "soal7": {
+                    "pertanyaan": "Apa itu DNS poisoning dalam konteks\nkeamanan jaringan?",
+                    "options": ["Proses memodifikasi alamat IP perangkat\ndalam server DNS", "Serangan yang menyebabkan kegagalan sistem\noperasi", "Proses mengenkripsi data selama transmisi", "Metode untuk meningkatkan kecepatan koneksi\ninternet"],
+                    "jawaban": "Proses memodifikasi alamat IP perangkat\ndalam server DNS"
+                },
+                "soal8": {
+                    "pertanyaan": "Apa yang dimaksud dengan Virtual Reality (VR)?",
+                    "options": ["Lingkungan simulasi yang dibuat oleh komputer\nyang memungkinkan pengguna berinteraksi dengan dunia maya", "Bentuk kecerdasan buatan yang dapat berkomunikasi\ndengan pengguna", " Algoritma untuk membuat efek visual menarik\ndalam permainan komputer", "Teknik penyimpanan data dalam server terpisah"],
+                    "jawaban": "Lingkungan simulasi yang dibuat oleh komputer\nyang memungkinkan pengguna berinteraksi dengan dunia maya"
+                },
+                "soal9": {
+                    "pertanyaan": "Apa itu SQL injection dalam konteks keamanan web?",
+                    "options": ["Serangan yang menyebabkan kegagalan\nserver SQL", "Teknik untuk menyisipkan perintah SQL berbahaya\ndalam input pengguna", "Proses mengoptimalkan kueri SQL", "Metode enkripsi data dalam database"],
+                    "jawaban": "Teknik untuk menyisipkan perintah SQL berbahaya\ndalam input pengguna"
+                },
+                "soal10": {
+                    "pertanyaan": "Apa perbedaan antara IPv4 dan IPv6 dalam\nkonteks protokol internet?",
+                    "options": ["IPv6 menggunakan alamat IP 32-bit,\nsedangkan IPv4 menggunakan 128-bit", " IPv6 mendukung lebih banyak alamat IP\ndibandingkan dengan IPv4", "IPv4 adalah versi terbaru dari protokol\ninternet", "IPv6 memiliki batasan kecepatan transfer data"],
+                    "jawaban": " IPv6 mendukung lebih banyak alamat IP\ndibandingkan dengan IPv4"
+                    }
+            }
+            },
+    
+        "5": {
+            "tema1": {
+                "soal1": {
+                "pertanyaan": "Apa keuntungan penggunaan teknologi SSD (Solid\nState Drive) dibandingkan dengan HDD (Hard Disk Drive)?",
+                "options": ["SSD lebih murah dibandingkan HDD", "SSD memiliki kecepatan transfer data\nyang lebih tinggi", "HDD lebih tahan terhadap guncangan fisik", "SSD memiliki kapasitas penyimpanan yang\nlebih besar"],
+                "jawaban": "SSD memiliki kecepatan transfer data\nyang lebih tinggi"
+                },
+                "soal2": {
+                "pertanyaan": "Apa yang dimaksud dengan 'OpenID' dalam keamanan web?",
+                "options": ["Standar untuk otentikasi pengguna secara terbuka", "Metode enkripsi data dalam pangkalan data", "Protokol untuk mengamankan koneksi internet", "Jenis perangkat keras keamanan"],
+                "jawaban": "Standar untuk otentikasi pengguna secara terbuka"
+                },
+                "soal3": {
+                    "pertanyaan": "Apa itu VPN (Virtual Private Network)\ndan fungsinya dalam jaringan komputer?",
+                    "options": ["Protokol keamanan untuk mengamankan\ntransmisi data", "Jaringan pribadi yang terisolasi dari internet", "Koneksi yang memungkinkan akses aman ke\njaringan dari lokasi yang jauh", "Software untuk deteksi virus dalam sistem"],
+                    "jawaban": "Koneksi yang memungkinkan akses aman ke\njaringan dari lokasi yang jauh"
+                },
+                "soal4": {
+                    "pertanyaan": "Apa perbedaan antara data dan informasi\ndalam konteks komputasi?",
+                    "options": ["Data adalah hasil interpretasi dari informasi", "Informasi adalah bentuk data yang tidak\nterstruktur", "Data adalah fakta mentah, sedangkan informasi\nadalah data yang telah diolah", "Informasi dan data adalah istilah yang dapat\ndipertukarkan"],
+                    "jawaban": "Data adalah fakta mentah, sedangkan informasi\nadalah data yang telah diolah"
+                },
+                "soal5": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Scrum' dalam metodologi\npengembangan perangkat lunak?",
+                    "options": ["Metode untuk pengujian perangkat keras", "Pendekatan terstruktur untuk manajemen proyek\ndengan fokus pada kerjasama tim", "Algoritma pencarian data dalam basis data", " Standar untuk pengembangan aplikasi mobile"],
+                    "jawaban": "Pendekatan terstruktur untuk manajemen proyek\ndengan fokus pada kerjasama tim"
+                },
+                "soal6": {
+                "pertanyaan": "Apa itu 'IoT' dan bagaimana konsep ini bekerja?",
+                "options": ["Jaringan komputer yang terisolasi dari internet", "Konsep di mana perangkat fisik terhubung dan saling\nberkomunikasi melalui internet", "Algoritma untuk pengolahan data besar", "Software untuk pengaturan tugas otomatis"],
+                "jawaban": "Konsep di mana perangkat fisik terhubung dan saling\nberkomunikasi melalui internet"
+                },
+                "soal7": {
+                "pertanyaan": "IoT adalah singkatan dari....",
+                "options": ["Internet of Thoughts", "Internet of Things", "Intellegence on Things", "Interested on Thigns"],
+                "jawaban": "Internet of Things"
+                },
+                "soal8": {
+                "pertanyaan": "Apa perbedaan antara algoritma 'BFS' (Breadth-First\nSearch) dan 'DFS' (Depth-First Search)?",
+                "options": ["BFS mencari jalur terpendek, sementara DFS\nmencari jalur terpanjang", "BFS menggunakan struktur data tumpukan, sedangkan\nDFS menggunakan antrian", "BFS mengunjungi simpul sejauh mungkin\nsebelum mundur sedangkan DFS mengunjungi simpul\nsepanjang jalur sebelum beralih", "Keduanya adalah istilah yang sama dalam\nalgoritma pencarian"],
+                "jawaban": "BFS mengunjungi simpul sejauh mungkin sebelum mundur, sedangkan DFS mengunjungi simpul sepanjang jalur sebelum beralih"
+                },
+                "soal9": {
+                "pertanyaan": "Apa yang dimaksud dengan 'agile development'\ndalam pengembangan perangkat lunak?",
+                "options": ["Pendekatan pengembangan yang menekankan perencanaan\ndetail sejak awal", "Metode pengembangan yang terpusat pada dokumentasi\nyang rinci", "Pendekatan adaptif yang menekankan kolaborasi tim dan\nrespons cepat terhadap perubahan", "Metode pengembangan yang hanya fokus pada\ntahap implementasi"],
+                "jawaban": "Pendekatan adaptif yang menekankan kolaborasi tim dan\nrespons cepat terhadap perubahan"
+                },
+                "soal10": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'buffer overflow'\ndalam keamanan perangkat lunak?",
+                    "options": ["Serangan yang mencoba mengakses data di\nluar batas memori yang ditetapkan", "Proses penyimpanan sementara data dalam aplikasi", "Metode kompresi file untuk menghemat ruang\npenyimpanan", "Protokol keamanan untuk melindungi akses jaringan"],
+                    "jawaban": "Serangan yang mencoba mengakses data di\nluar batas memori yang ditetapkan"
+                }
+            },
+            "tema2": {
+                "soal1": {
+                    "pertanyaan": "Apa itu 'git' dalam pengembangan perangkat\nlunak dan apa fungsinya?",
+                    "options": ["Platform hosting untuk proyek perangkat\nlunak open source", "Sistem manajemen versi yang digunakan untuk melacak\nperubahan dalam kode sumber", "Jenis database untuk penyimpanan data terdistribusi", "Protokol komunikasi untuk pengiriman email"],
+                    "jawaban": "Sistem manajemen versi yang digunakan untuk melacak\nperubahan dalam kode sumber"
+                },
+                "soal2": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Docker' dalam konteks\npengembangan perangkat lunak dan virtualisasi?",
+                    "options": ["Platform untuk menggabungkan dua program\nmenjadi satu", " Metode untuk mengamankan server web", "Sistem manajemen basis data terdistribusi", "Platform untuk mengemas, mendistribusikan, dan menjalankan\naplikasi dalam lingkungan terisolasi"],
+                    "jawaban": "Platform untuk mengemas, mendistribusikan, dan menjalankan\naplikasi dalam lingkungan terisolasi"
+                },
+                "soal3": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Kecerdasan Buatan'\n(Artificial Intelligence)?",
+                    "options": ["Kemampuan mesin untuk melakukan tugas\ntanpa bantuan manusia", "Proses pembuatan gambar digital", "Bahasa pemrograman untuk keamanan web", "Algoritma untuk mempercepat komputasi"],
+                    "jawaban": "Kemampuan mesin untuk melakukan tugas\ntanpa bantuan manusia"
+                },
+                "soal4": {
+                    "pertanyaan": "Apa perbedaan antara 'git merge' dan 'git rebase'\ndalam pengembangan perangkat lunak?",
+                    "options": ["Git merge menggabungkan branch dengan commit terbaru,\nsedangkan git rebase memindahkan branch ke commit tertentu", "Git rebase menggabungkan branch dengan commit terbaru,\nsedangkan git merge memindahkan branch ke commit tertentu", "Keduanya merupakan istilah yang sama dalam git", "Git merge dan git rebase memiliki fungsi yang\nsama dalam manajemen versi"],
+                    "jawaban": "Git merge menggabungkan branch dengan commit terbaru,\nsedangkan git rebase memindahkan branch ke commit tertentu"
+                },
+                "soal5": {
+                    "pertanyaan": "Apa itu 'Dependency Injection' dalam pemrograman?",
+                    "options": ["Metode untuk menghindari kebergantungan\nantar kelas", "Proses menyisipkan ketergantungan dalam kode", "Algoritma pencarian jalur terpendek dalam graf", "Desain pola yang memisahkan antara interface\ndan implementasinya"],
+                    "jawaban": "Proses menyisipkan ketergantungan dalam kode"
+                },
+
+                "soal6": {
+                    "pertanyaan": "Apa perbedaan antara 'front-end' dan 'back-end'\ndalam pengembangan web?",
+                    "options": ["Front-end bertanggung jawab untuk logika bisnis,\nsedangkan back-end untuk antarmuka pengguna", "Front-end berfokus pada tampilan dan interaksi pengguna,\nsedangkan back-end pada pengelolaan data dan logika server", "Keduanya adalah istilah yang sama dalam\npengembangan web", "Front-end dan back-end memiliki fungsi yang\nsama dalam pengembangan web"],
+                    "jawaban": "Front-end berfokus pada tampilan dan interaksi pengguna,\nsedangkan back-end pada pengelolaan data dan logika server"
+                },
+                "soal7": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Microservices'\ndalam arsitektur perangkat lunak?",
+                    "options": ["Pendekatan untuk menghasilkan perangkat lunak\ndalam ukuran kecil dan independen secara fungsional", "Jenis sistem operasi yang dirancang untuk\nperangkat lunak kecil", "Protokol untuk menghubungkan perangkat lunak\ndengan perangkat keras", "Software yang dikembangkan oleh tim kecil"],
+                    "jawaban": "Pendekatan untuk menghasilkan perangkat lunak\ndalam ukuran kecil dan independen secara fungsional"
+                },
+                "soal8": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Sprint' dalam\nmetodologi pengembangan perangkat lunak Scrum?",
+                    "options": ["Tahap pengujian akhir sebelum perilisan\nperangkat lunak", "Periode waktu terbatas di mana pengembangan\nperangkat lunak terjadi", "Proses pengaturan tugas pada tim pengembang", "Sebuah tipe grafis yang digunakan dalam\ndesain antarmuka pengguna"],
+                    "jawaban": "Periode waktu terbatas di mana pengembangan\nperangkat lunak terjadi"
+                },
+                "soal9": {
+                    "pertanyaan": "Apa itu 'Cross-site Scripting' (XSS) dalam\nkeamanan web?",
+                    "options": ["Serangan yang mencoba memodifikasi data\npada sisi server", "Serangan yang memanipulasi interaksi pengguna dengan\nmenyisipkan skrip berbahaya pada halaman web", "Proses menyandikan data untuk keamanan transmisi", "Algoritma untuk memisahkan data dalam\nbasis data"],
+                    "jawaban": "Serangan yang memanipulasi interaksi pengguna dengan\nmenyisipkan skrip berbahaya pada halaman web"
+                },
+                "soal10": {
+                    "pertanyaan": "Apa itu 'Hadoop' dan fungsinya dalam\npengolahan big data?",
+                    "options": ["Database relasional yang mendukung SQL", "Framework untuk distribusi dan pemrosesan\ndata besar secara terdistribusi", "Algoritma untuk analisis data kecil", "Sistem operasi yang dioptimalkan untuk\npengolahan data"],
+                    "jawaban": "Framework untuk distribusi dan pemrosesan\ndata besar secara terdistribusi"
+                    }
+            },
+            "tema3": {
+                "soal1": {
+                    "pertanyaan": " Apa perbedaan antara 'Encryption' dan 'Hashing'\ndalam keamanan data?",
+                    "options": ["Keduanya adalah metode yang sama dalam\nmelindungi data", "Encryption digunakan untuk menyembunyikan data,\nsedangkan Hashing digunakan untuk verifikasi integritas data", "Hashing digunakan untuk mengamankan data rahasia,\nsedangkan Encryption untuk verifikasi integritas data", "Keduanya memiliki fungsi yang sama dalam\nkeamanan data"],
+                    "jawaban": "Encryption digunakan untuk menyembunyikan data, sedangkan Hashing digunakan untuk verifikasi integritas data"
+                },
+                "soal2": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Responsive Web\nDesign' dalam pengembangan web?",
+                    "options": ["Pendekatan untuk membangun halaman web\ntanpa menggunakan bahasa pemrograman", "Metode desain web yang memastikan tampilan halaman\ndapat menyesuaikan dengan berbagai ukuran layar dan perangkat", "Algoritma untuk mengoptimalkan kecepatan\nkoneksi internet", "Konsep desain yang hanya berfokus pada estetika\nvisual halaman web"],
+                    "jawaban": "Metode desain web yang memastikan tampilan halaman dapat menyesuaikan dengan berbagai ukuran layar dan perangkat"
+                },
+                "soal3": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'WebAssembly'\ndalam pengembangan web?",
+                    "options": ["Bahasa pemrograman untuk pengembangan web", "Standar biner yang dapat dieksekusi di browser\nuntuk meningkatkan kinerja aplikasi web", "Protokol untuk mengamankan transmisi data\npada web", "Platform untuk membuat animasi dan efek\nvisual dalam halaman web"],
+                    "jawaban": "Standar biner yang dapat dieksekusi di browser\nuntuk meningkatkan kinerja aplikasi web"
+                },
+                "soal4": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Distributed\nLedger Technology' dalam konteks blockchain?",
+                    "options": ["Protokol keamanan untuk server terdistribusi", "Teknologi yang memungkinkan pembagian data\ntransaksi di antara banyak node", "Metode untuk menyimpan data di berbagai\nbasis data terpusat", "Pendekatan dalam manajemen proyek terdistribusi"],
+                    "jawaban": "Teknologi yang memungkinkan pembagian data\ntransaksi di antara banyak node"
+                },
+                "soal5": {
+                    "pertanyaan": "Apa perbedaan antara 'Machine Learning'\ndan 'Deep Learning'?",
+                    "options": ["Keduanya adalah istilah yang sama dalam\nkecerdasan buatan", "Machine Learning lebih kompleks dibandingkan\nDeep Learning", "Deep Learning adalah subset dari Machine Learning\nyang menggunakan neural networks yang lebih kompleks", "Machine Learning lebih canggih dibandingkan\nDeep Learning"],
+                    "jawaban": "Deep Learning adalah subset dari Machine Learning\nyang menggunakan neural networks yang lebih kompleks"
+                },
+                 
+                "soal6": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'API Rate Limiting'\ndalam pengembangan web?",
+                    "options": ["Batasan kecepatan koneksi internet\nmenggunakan API", "Pengaturan kecepatan pengaksesan terhadap API\noleh pengguna atau aplikasi tertentu", "Metode untuk meningkatkan kecepatan pemrosesan\ndata di server API", "Protokol keamanan untuk API"],
+                    "jawaban": "Pengaturan kecepatan pengaksesan terhadap API\nboleh pengguna atau aplikasi tertentu"
+                },
+                "soal7": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'NoSQL Database'?",
+                    "options": ["Database yang menggunakan bahasa SQL\nuntuk kueri data", "Database yang hanya dapat diakses oleh\npengguna tertentu", "Sistem manajemen basis data yang tidak\nmengikuti model relasional tradisional", "Algoritma untuk menghindari konflik dalam\ntransaksi basis data"],
+                    "jawaban": "Sistem manajemen basis data yang tidak\nmengikuti model relasional tradisional"
+                },
+                "soal8": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'DevOps' dalam\npengembangan perangkat lunak?",
+                    "options": ["Pendekatan untuk memisahkan tim pengembang\ndan tim operasional", "Kombinasi dari pengembangan perangkat lunak (Development)\ndan operasi IT (Operations) untuk meningkatkan kolaborasi\ndan produktivitas", "Standar untuk menyatukan platform pengembangan\nberbagai bahasa pemrograman", "Model bisnis untuk mengelola proyek pengembangan\nperangkat lunak"],
+                    "jawaban": "Kombinasi dari pengembangan perangkat lunak (Development)\ndan operasi IT (Operations) untuk meningkatkan kolaborasi\ndan produktivitas"
+                },
+                "soal9": {
+                    "pertanyaan": "Apa itu 'Containerization' dalam pengembangan\nperangkat lunak?",
+                    "options": ["Proses menyatukan beberapa aplikasi\nmenjadi satu paket", "Pendekatan untuk menjalankan aplikasi dalam\nlingkungan terisolasi yang disebut 'container'", "Metode untuk meningkatkan keamanan aplikasi web", "Sistem untuk memasukkan perangkat keras\nke dalam wadah fisik"],
+                    "jawaban": "Pendekatan untuk menjalankan aplikasi dalam\nlingkungan terisolasi yang disebut 'container'"
+                },
+                "soal10": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'OAuth' dalam\nkeamanan web?",
+                    "options": ["Protokol keamanan untuk melindungi\nakses ke jaringan", "Standar otentikasi yang memungkinkan akses ke\naplikasi atau layanan tanpa memberikan kata sandi", "Metode enkripsi data dalam transmisi", "Bahasa pemrograman untuk keamanan web"],
+                    "jawaban": "Standar otentikasi yang memungkinkan akses ke\naplikasi atau layanan tanpa memberikan kata sandi"
+
+                }
+            },
+            "tema4": {
+                "soal1": {
+                    "pertanyaan": "Apa perbedaan antara 'Black Box Testing' dan\n'White Box Testing' dalam pengujian perangkat lunak?",
+                    "options": ["Black Box Testing menguji fungsionalitas tanpa\nmemperhatikan struktur internal, sedangkan White Box Testing\nmelibatkan pengetahuan penuh tentang struktur internal", "Black Box Testing melibatkan pemeriksaan struktur\ninternal tanpa pengetahuan tentang fungsionalitas, sedangkan\nWhite Box Testing hanya menguji fungsionalitas", "Keduanya adalah istilah yang sama dalam\npengujian perangkat lunak", "White Box Testing menguji perangkat lunak tanpa\nadanya dokumentasi, sedangkan Black Box Testing\nmemerlukan dokumentasi lengkap"],
+                    "jawaban": "Black Box Testing menguji fungsionalitas tanpa memperhatikan struktur internal, sedangkan White Box Testing melibatkan pengetahuan penuh tentang struktur internal"
+                },
+                "soal2": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Scalability' dalam\nkonteks sistem komputer atau aplikasi?",
+                    "options": ["Kemampuan untuk mengukur kualitas kode sumber", "Kemampuan sistem untuk menangani peningkatan\nbeban atau ukuran dengan baik", "Proses mengoptimalkan kinerja algoritma", "Kemampuan untuk menyimpan data dalam jumlah besar"],
+                    "jawaban": "Kemampuan sistem untuk menangani peningkatan\nbeban atau ukuran dengan baik"
+                },
+                "soal3": {
+                    "pertanyaan": "Apa itu 'Continuous Integration' (CI) dalam\npengembangan perangkat lunak?",
+                    "options": ["Proses menggabungkan perangkat keras\ndan perangkat lunak", "Metode untuk mengintegrasikan fitur baru\nke dalam aplikasi secara berkala", "Pendekatan untuk menguji dan menggabungkan perubahan\nkode secara otomatis ke dalam repositori bersama", "Algoritma untuk membagi data menjadi\nbeberapa bagian"],
+                    "jawaban": "Pendekatan untuk menguji dan menggabungkan perubahan\nkode secara otomatis ke dalam repositori bersama"
+                },
+                "soal4": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Agile Manifesto'\ndalam metodologi pengembangan perangkat lunak?",
+                    "options": ["Standar untuk dokumentasi proyek", "Prinsip-prinsip dan nilai dasar yang membimbing\npendekatan Agile dalam pengembangan perangkat lunak", "Sertifikasi untuk pengembang perangkat lunak", "Pedoman untuk manajemen proyek tradisional"],
+                    "jawaban": "Prinsip-prinsip dan nilai dasar yang membimbing\npendekatan Agile dalam pengembangan perangkat lunak"
+                },
+                "soal5": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Refactoring'\ndalam pemrograman?",
+                    "options": ["Proses mengubah struktur kode tanpa mengubah\nfungsionalitasnya", "Tahap akhir pengembangan perangkat lunak", "Algoritma untuk mengoptimalkan kecepatan komputer", "Proses menghapus kode yang tidak diperlukan\ndari aplikasi"],
+                    "jawaban": "Proses mengubah struktur kode tanpa mengubah\nfungsionalitasnya"
+                },
+                "soal6": {
+                    "pertanyaan": "Apa itu 'CORS' (Cross-Origin Resource\nSharing) dalam konteks web?",
+                    "options": ["Metode untuk berbagi sumber daya antara\nserver dan client pada domain yang berbeda", "Protokol keamanan untuk melindungi akses\nke sumber daya di server", "Algoritma untuk pengaturan kecepatan\ntransfer data", "Standar untuk mengukur kualitas respons\nserver"],
+                    "jawaban": "Metode untuk berbagi sumber daya antara\nserver dan client pada domain yang berbeda"
+                },
+                "soal7": {
+                    "pertanyaan": "Apa perbedaan antara 'Load Balancing' dan\n'Failover' dalam sistem komputer?",
+                    "options": ["Keduanya adalah istilah yang sama\ndalam sistem komputer", "Load Balancing bertujuan untuk mendistribusikan\nbeban kerja secara merata, sedangkan Failover bertujuan\nuntuk mengatasi kegagalan server", "Load Balancing dan Failover adalah metode\nuntuk meningkatkan kecepatan koneksi internet", "Failover bertujuan untuk mendistribusikan beban\nkerja secara merata, sedangkan Load Balancing bertujuan\nuntuk mengatasi kegagalan server"],
+                    "jawaban": "Load Balancing bertujuan untuk mendistribusikan\nbeban kerja secara merata, sedangkan Failover bertujuan\nuntuk mengatasi kegagalan server"
+                },
+                "soal8": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Immutable Infrastructure'\ndalam pengembangan perangkat lunak?",
+                    "options": ["Pendekatan untuk membuat infrastruktur yang\ntidak dapat diubah atau dimodifikasi", "Sistem operasi yang tidak memerlukan pembaruan", "Proses menyimpan data dalam keadaan terkunci", "Pendekatan untuk menciptakan perangkat lunak\nyang tidak dapat diubah atau dimodifikasi"],
+                    "jawaban": "Pendekatan untuk membuat infrastruktur yang\ntidak dapat diubah atau dimodifikasi"
+                },
+                "soal9": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'WebSockets' dalam\npengembangan web?",
+                    "options": ["Protokol keamanan untuk mengamankan\ntransmisi data pada web", "Teknologi untuk membangun aplikasi web tanpa\nmenggunakan bahasa pemrograman", "Metode untuk menyaring lalu lintas internet", "Protokol komunikasi dua arah antara\nklien dan server melalui koneksi terbuka"],
+                    "jawaban": "Protokol komunikasi dua arah antara\nklien dan server melalui koneksi terbuka"
+                },
+                "soal10": {
+                    "pertanyaan": "Apa yang dimaksud dengan 'Dark Web' dalam\nkonteks internet?",
+                    "options": ["Bagian dari internet yang dapat\ndiakses oleh publik", "Area internet yang hanya dapat diakses\noleh peneliti keamanan", "Bagian dari internet yang tidak dapat\ndiakses oleh mesin pencari konvensional", "Protokol keamanan untuk melindungi akses\nke sumber daya di server"],
+                    "jawaban": "Bagian dari internet yang tidak dapat\ndiakses oleh mesin pencari konvensional"
+                }    
+        }
+    },
+        "6": {
+        "tema1": {
+             
+            "soal1": {
+            "pertanyaan": "Apa yang dimaksud dengan 'FaaS' (Function\nas a Service) dalam komputasi awan?",
+            "options": ["Model layanan awan yang menyediakan infrastruktur\nperangkat keras secara virtual", "Pendekatan untuk membangun aplikasi tanpa\nmenggunakan bahasa pemrograman", "Model layanan awan di mana pengembang hanya\nfokus pada fungsi (fungsi kecil) yang dijalankan\nsecara on-demand", "Protokol untuk mengamankan transmisi data\npada komputasi awan"],
+            "jawaban": "Model layanan awan di mana pengembang hanya\nfokus pada fungsi (fungsi kecil) yang dijalankan\nsecara on-demand"
+            },
+            "soal2": {
+            "pertanyaan": "Apa perbedaan antara 'Horizontal Scaling' dan\n'Vertical Scaling' dalam konteks peningkatan\nkapasitas server?",
+            "options": ["Keduanya adalah istilah yang sama dalam\npeningkatan kapasitas server", "Horizontal Scaling menambah kapasitas dengan\nmenambah server, sedangkan Vertical Scaling meningkatkan kapasitas\ndengan meningkatkan daya komputasi pada server yang sama", "Vertical Scaling menambah kapasitas dengan menambah\nserver, sedangkan Horizontal Scaling meningkatkan kapasitas\ndengan meningkatkan daya komputasi pada server yang sama", "Keduanya tidak terkait dengan peningkatan\nkapasitas server"],
+            "jawaban": "Horizontal Scaling menambah kapasitas dengan\nmenambah server, sedangkan Vertical Scaling meningkatkan kapasitas\ndengan meningkatkan daya komputasi pada server yang sama"
+            },
+            "soal3": {
+                "pertanyaan": "Apa itu 'GraphQL' dan bagaimana ia berbeda\ndari 'REST' dalam pengembangan API?",
+                "options": ["GraphQL adalah bahasa pemrograman,\nsedangkan REST adalah protokol komunikasi", " GraphQL dan REST adalah istilah yang sama\ndalam pengembangan API", "GraphQL adalah protokol komunikasi, sedangkan\nREST adalah query language", "GraphQL adalah bahasa kueri API yang memungkinkan\nklien menentukan struktur respon yang diinginkan, sedangkan\nREST menggunakan endpoint yang telah ditentukan"],
+                "jawaban": "GraphQL adalah bahasa kueri API yang memungkinkan\nklien menentukan struktur respon yang diinginkan, sedangkan\nREST menggunakan endpoint yang telah ditentukan"
+            },
+            "soal4": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Dependency Hell'\ndalam pengembangan perangkat lunak?",
+                "options": ["Konsep dalam manajemen proyek yang menekankan\nkebergantungan antar tugas", "Masalah yang timbul ketika sebuah program bergantung\npada versi tertentu dari perangkat lunak lain\nyang tidak kompatibel", "Istilah yang digunakan untuk menggambarkan kekacauan\ndalam desain antarmuka pengguna", "Proses menyatukan kode dari beberapa\nsumber ke dalam satu aplikasi"],
+                "jawaban": "Masalah yang timbul ketika sebuah program bergantung\npada versi tertentu dari perangkat lunak lain\nyang tidak kompatibel"
+            },
+            "soal5": {
+                "pertanyaan": " Apa yang dimaksud dengan 'Serverless\nComputing' dalam pengembangan perangkat lunak?",
+                "options": ["Model pembayaran yang hanya memerlukan pembayaran\nuntuk server yang digunakan secara efektif", "Pendekatan untuk mengembangkan aplikasi tanpa\nmenggunakan server fisik", "Protokol untuk mengamankan transmisi\ndata pada server", "Model pembayaran yang memerlukan biaya tetap\nuntuk penggunaan server tanpa memperhatikan seberapa\nbanyak server yang digunakan"],
+                "jawaban": "Pendekatan untuk mengembangkan aplikasi tanpa menggunakan server fisik"
+        },   
+            "soal6": {
+            "pertanyaan": "Apa yang dimaksud dengan 'Big O Notation'\ndalam analisis algoritma?",
+            "options": ["Notasi untuk menyatakan kompleksitas waktu\natau ruang algoritma dalam hubungannya\ndengan ukuran input", "Protokol keamanan untuk mengamankan\ntransmisi data dalam jaringan", "Jenis database yang mendukung\nkueri kompleks", "Algoritma pencarian data yang efisien"],
+            "jawaban": "Notasi untuk menyatakan kompleksitas waktu\natau ruang algoritma dalam hubungannya\ndengan ukuran input"
+            },
+            "soal7": {
+            "pertanyaan": "Apa itu 'Blockchain' dan bagaimana\ncara kerjanya?",
+            "options": [" Protokol untuk mengamankan transmisi data\ndi jaringan peer-to-peer", "Sistem manajemen basis data terdistribusi\nyang menggunakan rantai blok yang terhubung\nsecara kriptografis untuk merekam transaksi", "Metode pengembangan aplikasi berbasis blok", "Model keamanan yang melibatkan penyandian\ndata menggunakan blockchain"],
+            "jawaban": "Sistem manajemen basis data terdistribusi\nyang menggunakan rantai blok yang terhubung\nsecara kriptografis untuk merekam transaksi"
+            },
+            "soal8": {
+            "pertanyaan": "Apa yang dimaksud dengan 'Artificial Neural\nNetwork' (ANN) dalam konteks kecerdasan buatan?",
+            "options": ["Algoritma untuk menggambarkan struktur\ndata dalam bentuk jaringan neuron", "Model yang terinspirasi dari struktur dan\nfungsi otak manusia untuk melakukan\ntugas-tugas tertentu", "Protokol untuk mengamankan transmisi\ndata dalam jaringan neural", "Metode untuk menyaring lalu lintas internet"],
+            "jawaban": " Model yang terinspirasi dari struktur dan fungsi otak manusia untuk melakukan tugas-tugas tertentu"
+            },
+            "soal9": {
+            "pertanyaan": "Apa perbedaan antara 'Static Typing'\ndan 'Dynamic Typing' dalam pemrograman?",
+            "options": ["Keduanya adalah istilah yang sama\ndalam pemrograman", "Static Typing memerlukan deklarasi tipe\nvariabel saat kompilasi, sedangkan Dynamic Typing\nmenentukan tipe variabel saat runtime", "Dynamic Typing memerlukan deklarasi tipe\nvariabel saat kompilasi, sedangkan Static Typing\nmenentukan tipe variabel saat runtime", "Keduanya mengacu pada cara variabel diberi\nnama dalam kode sumber"],
+            "jawaban": "Static Typing memerlukan deklarasi tipe\nvariabel saat kompilasi, sedangkan Dynamic Typing\nmenentukan tipe variabel saat runtime"
+            },
+            "soal10": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Semantic Web'\bdalam konteks internet?",
+                "options": ["Protokol untuk mengamankan transmisi\bdata di webe", "Model pemrograman yang mengutamakan makna\bdari data yang dihasilkan", "Sistem operasi yang dirancang untuk web", "Standar untuk merancang antarmuka pengguna\byang responsif"],
+                "jawaban": "Model pemrograman yang mengutamakan makna\bdari data yang dihasilkan"
+
+        }
+        },
+        "tema2": {
+             
+            "soal1": {
+                "pertanyaan": "Apa perbedaan antara 'HTTP' (Hypertext\nTransfer Protocol) dan 'HTTPS' (Hypertext\nTransfer Protocol Secure)?",
+                "options": ["Keduanya adalah istilah yang sama dalam\nprotokol komunikasi", "HTTPS adalah versi lebih lama dari HTTP", "HTTP menggunakan enkripsi untuk melindungi\ndata, sedangkan HTTPS tidak", "HTTPS menggunakan enkripsi SSL/TLS\nuntuk melindungi data selama transmisi"],
+                "jawaban": "HTTPS menggunakan enkripsi SSL/TLS\nuntuk melindungi data selama transmisi"
+            },
+            "soal2": {
+                "pertanyaan": "Apa itu 'Tokenization' dalam keamanan\nperangkat lunak?",
+                "options": ["Proses mengonversi data menjadi format\ntoken untuk mengamankan transmisi", "Metode pengkodean data untuk menyembunyikan\ninformasi sensitif", "Algoritma pencarian data dalam\nbasis data", "Model keamanan yang melibatkan pemberian token\nakses untuk autentikasi pengguna"],
+                "jawaban": "Metode pengkodean data untuk menyembunyikan\ninformasi sensitif"
+            },
+            "soal3": {
+                "pertanyaan": "Apa itu 'Docker Compose' dalam lingkungan Docker?",
+                "options": ["Alat untuk membuat gambar Docker", "Layanan manajemen kontainer untuk produksi", "Alat untuk mengelola beberapa kontainer\nDocker sebagai satu aplikasi", "Metode untuk menyusun kode sumber\ndalam proyek Docker"],
+                "jawaban": "Alat untuk mengelola beberapa kontainer\nDocker sebagai satu aplikasi"
+            },
+            "soal4": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Code Review' dalam\npengembangan perangkat lunak?",
+                "options": ["Proses mengonfirmasi kode sumber yang\ntelah dikirim ke repositori", "Tahap pengembangan perangkat lunak yang\nmelibatkan peninjauan kode oleh rekan tim", "Metode untuk mendeteksi bug pada\ntahap awal pengembangan", "Algoritma untuk memeriksa sintaks kode\nsecara otomatis"],
+                "jawaban": "Tahap pengembangan perangkat lunak yang\nmelibatkan peninjauan kode oleh rekan tim"
+            },
+            "soal5": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Latency' dalam\nkonteks jaringan komputer?",
+                "options": ["Waktu yang diperlukan untuk mentransmisikan\ndata melalui jaringan", "Jumlah data yang dapat ditransfer\ndalam satu waktu", "Ukuran file saat dikirim melalui jaringan", "Protokol untuk mengamankan transmisi\ndata dalam jaringan"],
+                "jawaban": "Waktu yang diperlukan untuk mentransmisikan\ndata melalui jaringan"
+            },              
+            "soal6": {
+                "pertanyaan": "Apa perbedaan antara 'Front-end Framework' dan\n'Back-end Framework' dalam pengembangan web?",
+                "options": ["Front-end Framework fokus pada logika server,\nsedangkan Back-end Framework fokus pada/nantarmuka pengguna", "Front-end Framework digunakan untuk\npengembangan aplikasi mobile, sedangkan Back-end\nFramework untuk aplikasi web", "Front-end Framework berkaitan dengan tampilan dan\ninteraksi pengguna, sedangkan Back-end Framework berkaitan\ndengan pengelolaan data dan logika server", "Keduanya adalah istilah yang sama dalam\npengembangan web"],
+                "jawaban": "Front-end Framework berkaitan dengan tampilan dan\ninteraksi pengguna, sedangkan Back-end Framework berkaitan\ndengan pengelolaan data dan logika server"
+            },
+            "soal7": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Mocking' dalam pengujian\nperangkat lunak?",
+                "options": ["Proses menghindari pengujian untuk meningkatkan\nkinerja aplikasi", "Pembuatan salinan cadangan dari kode sumber aplikasi", "Proses membuat tiruan objek atau fungsi untuk\nsimulasi pengujian", "Model pengujian yang melibatkan partisipasi\npengguna sebenarnya"],
+                "jawaban": "Proses membuat tiruan objek atau fungsi untuk\nsimulasi pengujian"
+            },
+            "soal8": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Inversion of Control'\n(IoC) dalam pemrograman?",
+                "options": ["Paradigma pemrograman yang meminta input dari\npengguna untuk mengontrol alur program", "Konsep di mana kontrol eksekusi program dipindahkan\ndari aplikasi utama ke framework atau container", "Algoritma untuk menghindari loop tak terbatas\ndalam program", "Sistem otomatis untuk mengatasi kesalahan\ndalam kode sumber"],
+                "jawaban": "Konsep di mana kontrol eksekusi program dipindahkan\ndari aplikasi utama ke framework atau container"
+            },
+            "soal9": {
+                "pertanyaan": "Apa itu 'Regular Expression' (Regex) \ndalam pemrograman?",
+                "options": ["Bahasa pemrograman yang mengutamakan ekspresi\nmatematika", "Metode untuk menyusun kode sumber agar\nlebih terbaca", "Urutan karakter yang membentuk pola pencarian dalam teks", "Pendekatan untuk membuat aplikasi lebih responsif"],
+                "jawaban": "Urutan karakter yang membentuk pola pencarian dalam teks"
+            },
+            "soal10": {
+                "pertanyaan": "Apa perbedaan antara 'Shallow Copy' dan 'Deep Copy'\ndalam pemrograman?",
+                "options": ["Keduanya adalah istilah yang sama\ndalam pemrograman", "Shallow Copy menghasilkan salinan permukaan objek,\nsedangkan Deep Copy menghasilkan salinan objek beserta objek\nyang bersarang di dalamnya", "Deep Copy menghasilkan salinan permukaan objek,\nsedangkan Shallow Copy menghasilkan salinan objek\nbeserta objek yang bersarang di dalamnya", "Keduanya mengacu pada cara objek disalin\ndalam kode sumber"],
+                "jawaban": "Shallow Copy menghasilkan salinan permukaan objek,\nsedangkan Deep Copy menghasilkan salinan objek beserta objek\nyang bersarang di dalamnya"
+            }
+        },
+        "tema3": {
+             
+            "soal1": {
+                "pertanyaan": "Apa itu 'Cross-Origin Resource Sharing' (CORS)\ndalam konteks keamanan web?",
+                "options": ["Protokol untuk mengamankan transmisi data di web", "Metode pengelolaan kebijakan akses pada\ndomain yang berbeda", "Model keamanan yang melibatkan penggunaan\ntoken akses", "Algoritma untuk mengamankan koneksi internet"],
+                "jawaban": "Metode pengelolaan kebijakan akses pada\ndomain yang berbeda"
+            },
+            "soal2": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Chaos Engineering'\ndalam pengembangan perangkat lunak?",
+                "options": ["Proses memperkenalkan kekacauan sengaja dalam\nsistem untuk mengidentifikasi potensi kegagalan", "Algoritma untuk mengoptimalkan kecepatan pemrosesan\ndata di server", "Metode untuk mengukur efisiensi kode sumber", "Model pengembangan perangkat lunak yang menekankan\nkestabilan sistem"],
+                "jawaban": "Proses memperkenalkan kekacauan sengaja dalam\nsistem untuk mengidentifikasi potensi kegagalan"
+            },
+            "soal3": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Singleton Pattern'\ndalam desain perangkat lunak?",
+                "options": ["Metode pengkodean yang memastikan setiap\nobjek hanya bisa dibuat satu kali", "Pola desain yang memungkinkan pembuatan banyak\nobjek dari kelas yang sama", "Konsep di mana objek dapat dibuat kembali\nsetiap kali dibutuhkan", "Metode untuk menerapkan polimorfisme dalam\npemrograman berorientasi objek"],
+                "jawaban": "Metode pengkodean yang memastikan setiap\nobjek hanya bisa dibuat satu kali"
+            },
+            "soal4": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Agile Scrum' dalam\npengembangan perangkat lunak?",
+                "options": ["Model siklus hidup pengembangan perangkat\nlunak yang terfokus pada tahap analisis", "Metode pengembangan iteratif yang menekankan\ntransparansi, inspeksi, dan adaptasi", "Algoritma untuk mengelola proyek dengan\nberbagai tahapan", "Sistem manajemen basis data yang menggunakan\npendekatan blok"],
+                "jawaban": "Metode pengembangan iteratif yang menekankan transparansi, inspeksi, dan adaptasi"
+            },
+            "soal5": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Microservices Architecture'\ndalam pengembangan perangkat lunak?",
+                "options": ["Pendekatan untuk membangun aplikasi\nmonolitik yang besar", "Arsitektur perangkat lunak di mana aplikasi dibangun\nsebagai kumpulan layanan independen dan terpisah", "Model pengembangan perangkat lunak yang menggunakan\nlayanan makro yang terhubung", "Sistem manajemen basis data yang memisahkan\ndata menjadi mikro-database"],
+                "jawaban": "Arsitektur perangkat lunak di mana aplikasi dibangun\nsebagai kumpulan layanan independen dan terpisah"
+            },   
+             
+            "soal6": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Distributed Denial\nof Service' (DDoS) dalam keamanan jaringan?",
+                "options": ["Serangan yang bertujuan membuat layanan atau\nsumber daya tidak tersedia bagi pengguna yang sah\ndengan membanjiri sistem dengan lalu lintas palsu", "Metode untuk melindungi server dari serangan\nmalware", "Protokol keamanan untuk melindungi transmisi\ndata dalam jaringan", "Algoritma untuk membatasi akses pengguna\nke sumber daya jaringan tertentu"],
+                "jawaban": "Serangan yang bertujuan membuat layanan atau\nsumber daya tidak tersedia bagi pengguna yang sah\ndengan membanjiri sistem dengan lalu lintas palsu"
+            },
+            "soal7": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Garbage Collection'\ndalam pemrograman?",
+                "options": ["Proses menghapus data sampah dari basis data", "Metode untuk mengelola daftar sumber daya yang tidak\nterpakai dan membebaskan memori yang tidak digunakan", "Algoritma pencarian dan penggantian teks\ndalam kode sumber", "Model pengelolaan kode sumber untuk mencegah\nkesalahan pemrograman"],
+                "jawaban": "Metode untuk mengelola daftar sumber daya yang tidak\nterpakai dan membebaskan memori yang tidak digunakan"
+            },
+            "soal8": {
+                "pertanyaan": "Apa itu 'Binary Search' dalam algoritma pencarian?",
+                "options": ["Metode pencarian yang memeriksa setiap\nelemen satu per satu", "Teknik pencarian yang membagi daftar menjadi\ndua bagian dan memeriksa elemen tengah untuk menentukan\narah pencarian selanjutnya", "Pendekatan untuk menghindari kebocoran memori\ndalam pemrograman", "Model pengkodean yang hanya menggunakan\ndua digit biner"],
+                "jawaban": "Teknik pencarian yang membagi daftar menjadi\ndua bagian dan memeriksa elemen tengah untuk menentukan\narah pencarian selanjutnya"
+            },
+            "soal9": {
+                "pertanyaan": "Apa perbedaan antara 'Encryption' dan 'Hashing'\ndalam keamanan data?",
+                "options": ["Keduanya adalah istilah yang sama dalam\nkeamanan data", "Encryption digunakan untuk melindungi integritas data,\nsedangkan Hashing digunakan untuk melindungi\nkerahasiaan data", "Hashing digunakan untuk mengubah data menjadi\nformat terenkripsi, sedangkan Encryption digunakan\nuntuk membuat tanda tangan digital", "Encryption mengubah data menjadi format terenkripsi\nyang dapat diubah kembali, sedangkan Hashing mengubah\ndata menjadi format yang sulit diubah kembali"],
+                "jawaban": "Encryption mengubah data menjadi format terenkripsi\nyang dapat diubah kembali, sedangkan Hashing mengubah\ndata menjadi format yang sulit diubah kembali"
+            },
+            "soal10": {
+                "pertanyaan": "Apa itu 'Thread' dalam pemrograman komputer?",
+                "options": ["Unit eksekusi kecil yang berbagi ruang\nmemori dan sumber daya dengan proses utama", "Bahasa pemrograman berbasis thread", "Metode untuk menyusun kode sumber agar\nlebih terbaca", "Algoritma pencarian data dalam basis data"],
+                "jawaban": "Unit eksekusi kecil yang berbagi ruang\nmemori dan sumber daya dengan proses utama"
+                }
+        },
+        "tema4": {
+            "soal1": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Firmware' dalam\nkonteks perangkat keras?",
+                "options": ["Perangkat keras yang dapat diubah secara\bdinamis sesuai kebutuhan", "Perangkat keras yang terdiri dari perangkat\nkeras dan perangkat lunak", "Perangkat keras yang bersifat tetap dan\nmemiliki perangkat lunak yang tertanam", "Proses pemasangan perangkat keras pada komputer"],
+                "jawaban": "Perangkat keras yang bersifat tetap dan\nmemiliki perangkat lunak yang tertanam"
+            },
+            "soal2": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Cross-Site Scripting'\n(XSS) dalam keamanan web?",
+                "options": ["Metode untuk mengamankan transmisi data\nantara server dan klien", "Serangan yang memanfaatkan celah keamanan pada\naplikasi web yang memungkinkan injeksi\nskrip oleh pengguna jahat", "Algoritma untuk mengenkripsi data saat\ntransit di jaringan", "Protokol keamanan untuk melindungi situs\nweb dari serangan malware"],
+                "jawaban": "Serangan yang memanfaatkan celah keamanan pada\naplikasi web yang memungkinkan injeksi\nskrip oleh pengguna jahat"
+            },
+            "soal3": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Latency' dalam\nkonteks jaringan komputer?",
+                "options": ["Waktu yang diperlukan untuk mentransmisikan\ndata melalui jaringan", "Jumlah data yang dapat ditransfer dalam\nsatu waktu", "Ukuran file saat dikirim melalui jaringan", "Protokol untuk mengamankan transmisi data\ndalam jaringan"],
+                "jawaban": "Waktu yang diperlukan untuk mentransmisikan\ndata melalui jaringan"
+            },
+            "soal4": {
+                "pertanyaan": "Apa itu 'Deadlock' dalam pemrograman komputer?",
+                "options": ["Keadaan di mana dua atau lebih proses tidak dapat\nmelanjutkan eksekusi karena setiap proses menunggu\nsumber daya yang dipegang oleh proses lain", "Kesalahan logika dalam kode sumber yang menyebabkan\nprogram keluar dengan tidak benar", "Proses pembebasan memori yang tidak efisien", "Model pengkodean untuk membuat aplikasi\nlebih responsif"],
+                "jawaban": "Keadaan di mana dua atau lebih proses tidak dapat\nmelanjutkan eksekusi karena setiap proses menunggu\nsumber daya yang dipegang oleh proses lain"
+            },
+            "soal5": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Big-O Notation'\ndalam analisis algoritma?",
+                "options": ["Notasi untuk menyatakan kompleksitas waktu\natau ruang algoritma dalam hubungannya\ndengan ukuran input", "Protokol keamanan untuk mengamankan transmisi\ndata dalam jaringan", "Jenis database yang mendukung kueri kompleks", "Algoritma pencarian data yang efisien"],
+                "jawaban": "Notasi untuk menyatakan kompleksitas waktu\natau ruang algoritma dalam hubungannyan\ndengan ukuran input"
+            },   
+            "soal6": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Machine Learning'\ndalam konteks kecerdasan buatan?",
+                "options": ["Algoritma pencarian data dalam basis data", "Model untuk memahami dan memecahkan masalah\ntanpa instruksi eksplisit", "Metode pengelolaan kebijakan akses pada\ndomain yang berbeda", "Sistem manajemen basis data yang\nmenggunakan pendekatan blok"],
+                "jawaban": "Model untuk memahami dan memecahkan masalah\ntanpa instruksi eksplisit"
+            },
+            "soal7": {
+                "pertanyaan": " Apa itu 'Object-Oriented Programming' (OOP)\bdalam pemrograman komputer?",
+                "options": ["Model pemrograman yang mengutamakan struktur data\ndalam bentuk objek dan operasi yang dapat\ndilakukan pada objek tersebut", "Protokol keamanan untuk melindungi transmisi\ndata dalam jaringan", "Metode pengelolaan kebijakan akses pada\ndomain yang berbeda", "Algoritma pencarian data dalam basis data"],
+                "jawaban": "Model pemrograman yang mengutamakan struktur data\ndalam bentuk objek dan operasi yang dapat\ndilakukan pada objek tersebut"
+            },
+            "soal8": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Agile Development'\ndalam pengembangan perangkat lunak?",
+                "options": ["Model pengembangan perangkat lunak yang mengandalkan\nperubahan proyek dan kebutuhan pelanggan", "Metode pengembangan yang melibatkan satu siklus\npengembangan panjang tanpa iterasi", "Algoritma pencarian data dalam basis data", "Sistem manajemen basis data yang menggunakan\npendekatan blok"],
+                "jawaban": "Model pengembangan perangkat lunak yang mengandalkan\nperubahan proyek dan kebutuhan pelanggan"
+            },
+            "soal9": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Scalability' dalam\nkonteks sistem komputer?",
+                "options": ["Kemampuan sistem untuk meningkatkan kinerja\nsaat beban kerja meningkat", "Jumlah data yang dapat ditransfer dalam satu waktu", "Protokol untuk mengamankan transmisi data\ndalam jaringan", "Model pemrograman yang mengutamakan kecepatan\neksekusi program"],
+                "jawaban": "Kemampuan sistem untuk meningkatkan kinerja\nsaat beban kerja meningkat"
+            },
+            "soal10": {
+                "pertanyaan": "Apa yang dimaksud dengan 'Data Mining'\ndalam analisis data?",
+                "options": ["Proses mengumpulkan data dari sumber\nyang berbeda untuk analisis", "Algoritma pencarian data dalam basis data", "Metode untuk menemukan pola atau informasi yang\ntersembunyi dalam kumpulan data besar", "Model untuk memahami dan memecahkan masalah\ntanpa instruksi eksplisit"],
+                "jawaban": "Metode untuk menemukan pola atau informasi yang\ntersembunyi dalam kumpulan data besar"
+            }
+        }
+    }
+}
+}
